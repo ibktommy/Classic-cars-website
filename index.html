@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classic Cars</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Special+Elite&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- MENU -->
+  <div class="menu target center">
+    <div class="menu-line menu-line_1"></div>
+    <div class="menu-line menu-line_2"></div>
+  </div>
+
+  <!-- NAVBAR -->
+  <div class="navbar target">
+    <a href="#home" class="navbar-link">Home</a>
+    <a href="#cars" class="navbar-link">Popular Cars</a>
+    <a href="#video" class="navbar-link">Video Gallery</a>
+    <a href="#image" class="navbar-link">Image Gallery</a>
+    <a href="#contact" class="navbar-link">Contact</a>
+  </div>
+
+  <!-- SECTION 1 -->
+  <div class="wrapper">
+    <section class="section-1 target center" id="home">
+      <h1 class="section-heading section-1_heading">
+        Classic Cars
+      </h1>
+      <img src="images/car-section1.png" alt="Car | Home" class="section-1_img">
+    </section>
+  </div>
+
+  <!-- SECTION 2 -->
+  <div class="wrapper">
+    <section class="section-2 target" id="cars">
+      <h1 class="section-heading">
+        Popular Cars
+      </h1>
+      <div class="cards-wrapper center">
+        <div class="card">
+          <h2 class="car-name">Car Name</h2>
+          <img src="images/car-1.jpg" alt="car-1" class="card-img">
+          <h3 class="car-price">$200,000</h3>
+          <button type="button" class="card-btn">
+            See More
+          </button>
+        </div>
+        <div class="card">
+          <h2 class="car-name">Car Name</h2>
+          <img src="images/car-2.jpg" alt="car-2" class="card-img">
+          <h3 class="car-price">$100,000</h3>
+          <button type="button" class="card-btn">
+            See More
+          </button>
+        </div>
+        <div class="card">
+          <h2 class="car-name">Car Name</h2>
+          <img src="images/car-3.jpg" alt="car-3" class="card-img">
+          <h3 class="car-price">$150,000</h3>
+          <button type="button" class="card-btn">
+            See More
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- SECTION 3 -->
+  <div class="wrapper">
+    <section class="section-3 target" id="video">
+      <h1 class="section-heading">Video Gallery</h1>
+      <div class="videos-wrapper center">
+        <video src="images/car-video-1.mp4" muted loop class="video"></video>
+        <video src="images/car-video-2.mp4" muted loop class="video"></video>
+        <video src="images/car-video-3.mp4" muted loop class="video"></video>
+      </div>
+      <div class="videos-wrapper center">
+        <video src="images/car-video-4.mp4" muted loop class="video"></video>
+        <video src="images/car-video-5.mp4" muted loop class="video"></video>
+        <video src="images/car-video-6.mp4" muted loop class="video"></video>
+      </div>
+    </section>
+  </div>
+
+  <!-- SECTION 4 -->
+  <div class="wrapper">
+    <section class="section-4 target" id="image">
+      <h1 class="section-heading">Image Gallery</h1>
+      <div class="gallery center">
+        <div class="gallery-shelf"></div>
+        <img src="images/gallery-car-1.jpg" alt="gallery-car-1" class="gallery-img_1">
+        <img src="images/gallery-car-2.jpg" alt="gallery-car-2" class="gallery-img_2">
+        <img src="images/gallery-car-3.jpg" alt="gallery-car-3" class="gallery-img_3">
+      </div>
+
+      <div class="gallery center">
+        <div class="gallery-shelf"></div>
+        <img src="images/gallery-car-4.jpg" alt="gallery-car-4" class="gallery-img_1">
+        <img src="images/gallery-car-5.jpg" alt="gallery-car-5" class="gallery-img_2">
+        <img src="images/gallery-car-6.jpg" alt="gallery-car-6" class="gallery-img_3">
+      </div>
+    </section>
+  </div>
+
+  <!-- SECTION 5 -->
+  <div class="wrapper">
+    <section class="section-5 target" id="contact">
+      <h1 class="section-heading">Contact Us</h1>
+      <form class="contact-form">
+        <input type="text" class="form-input" placeholder="Your Full Name">
+        <input type="email" class="form-input" placeholder="Your Email">
+        <textarea class="form-input" placeholder="Enter Message"></textarea>
+        <input type="submit" class="form-btn" value="Submit">
+      </form>
+      <div class="copyright">
+        Copyright &copy; AtomDev All Rights Reserved
+      </div>
+    </section>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
